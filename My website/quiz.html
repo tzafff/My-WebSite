@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<script src="Εργασία 1/scripts/results.js"></script>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="Εργασία 1/styles/style1.css" />
+<title>Quiz</title>
+</head>
+
+<body>
+<div class="container">
+<header> 
+<a href="index.html"> <img src="Εργασία 1/media/java1.png" align="center" style="color:white"></a> <h1>JAVA </h1>
+
+<!--<div class="logo">
+<h1> <a href="index.html" style="color:white"> JAVA</a> </h1>-->
+
+ </header>
+
+<nav> 
+<ul>
+	<li> <a href="index.html"> ΑΡΧΙΚΗ </a> </li>
+	<li> <a href="basics.html"> ΤΟ ΘΕΜΑ ΜΟΥ </a> </li>
+	<li> <a href="more.html"> ΠΕΡΙΣΣΟΤΕΡΑ </a> </li>
+	<li class="selected"> <a href="quiz.html">  QUIZ</a> </li>
+	<li> <a href="sign-up.php"> ΕΓΓΡΑΦΗ</a> </li>
+	<li> <a href="login.html"> ΕΙΣΟΔΟΣ</a> </li>
+	</ul>
+</nav>
+
+
+<main align="center">
+<h2> QUIZ </h2>
+<form name="quiz" method="post" action="">
+
+<table>
+<tr><td><p>α) Μια κλάση στην Java μπορεί να κληρονωμει πολλές κλάσεις</p></td></tr> <br/>
+<tr><td align="left"><p>Σωστό<input type="radio" name="radio_choice_a" value="radio_choice_a1"></p></td></tr> <br/> 
+<tr><td align="left"><p>Λάθος<input type="radio" name="radio_choice_a" value="radio_choice_a2"></p></td></tr> <br/><!--Λάθος-->
+</table>
+
+
+<table>
+<tr><td><p>β) Κάθε αντικείμενο κάθε κλάσης είναι τύπου Object</p></td></tr> <br/>
+<tr><td align="left"><p>Σωστό<input type="radio" name="radio_choice_b" value="radio_choice_b1"></p></td></tr> <br/><!--Σωστο-->
+<tr><td align="left"><p>Λάθος<input type="radio" name="radio_choice_b" value="radio_choice_b2"></p></td></tr> <br/>
+</table>
+
+
+<table>
+<tr><td align="left"><p>γ) Κάθε υποκλάση..</p></td></tr> <br/><!--το 1ο -->
+<tr><td align="left"><p><input type="radio" name="radio_choice_c" value="radio_choice_c1"> κληρονομεί (inherits) τις μεθόδους και τις ιδιότητες που έχουν οριστεί ως public στη βασική κλάση.</p></td></tr><br/>
+<tr><td align="left"><p><input type="radio" name="radio_choice_c" value="radio_choice_c2"> έχει πρόσβαση στις μεθόδους και τις ιδιότητες που έχουν οριστεί ως private στη βασική κλάση</p></td></tr><br/>
+<tr><td align="left"><p><input type="radio" name="radio_choice_c" value="radio_choice_c3"> δεν μπορεί να ορίσει νέες ιδιότητες και μεθόδους</p></td></tr> <br/>
+<tr><td align="left"><p><input type="radio" name="radio_choice_c" value="radio_choice_c4"> τίποτα απο τα παραπάνω<br/>
+</table>
+
+<table>
+<tr><td align="left"><p>δ) Σε μια υποκλάση μπορούμε</p></td></tr><br/> <!--Ολα ειναι σωστά-->
+<tr><td align="left"><p><input type="checkbox" name="checkbox_1" id="chechbox_d1" value="checkbox_option_1"> να γράψουμε νέες στατικές ή μη στατικές μεθόδους για τη υποκλάση</p></td></tr><br/>
+<tr><td align="left"><p><input type="checkbox" name="checkbox_1" id="chechbox_d2" value="checkbox_option_1"> να γράψουμε νέες μεθόδους που έχουν το ίδιο signature (ίδιο όνομα, ίδιο αριθμό και ίδιο τύπο ορισμάτων), ώστε να επαναορίσουμε (override) τις μεθόδους αυτές στην υποκλάση</p></td></tr><br/>
+<tr><td align="left"><p><input type="checkbox" name="checkbox_1" id="chechbox_d3" value="checkbox_option_1"> να γράψουμε νέες στατικές (static) μεθόδους που έχουν το ίδιο signature, ώστε να επαναορίσουμε (override) τις μεθόδους αυτές στην υποκλάση</p></td></tr><br/>
+<tr><td align="left"><p><input type="checkbox" name="checkbox_1" id="chechbox_d4" value="checkbox_option_1"> να αναφερθούμε στη βασική κλάση με τον προσδιορισμό super  </p></td></tr><br/>
+</table>
+
+<table>
+<!--extends-->
+<tr><td align="left"><p>ε) Στην Java χρησιμοποιούμε την λέξη <input type="text" name="answer"/> για να μπορεί μια κλάση να κληρονωμει άλλες</p></td></tr><br/><br/><br/><br/><br/>
+</table>
+
+<table>
+<tr><td align="left"><p><input type="submit" name="submit_quiz" value="Υποβολή" onclick="checkResults()"/></p></td></tr><br/><br/>
+</table>
+
+</main>
+<aside></aside>
+<section>
+</section>
+
+<footer style="color:#ffffff"> 
+ Σχεδίαση Ιστοσελίδας: Τζαφερης Χρήστος <br>
+ Επικοινωνία:<a href="mailto:tzaf097@gmail.com" style="color:#ffffff"> Email me here</a>
+</footer>
+
+</div>
+</body>
+
+</html>

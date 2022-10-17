@@ -1,0 +1,65 @@
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="Εργασία 1/styles/style1.css" />
+<title>Είσοδος</title>
+</head>
+
+<body>
+<div class="container">
+<header> 
+<a href="index.html"> <img src="Εργασία 1/media/java1.png" align="center" style="color:white"></a> <h1>JAVA </h1>
+
+<div class="logo">
+<!--<h1> <a href="index.html" style="color:white"> JAVA</a> </h1>-->
+
+ </header>
+
+<nav> 
+<ul>
+	<li> <a href="index.html"> ΑΡΧΙΚΗ </a> </li>
+	<li> <a href="basics.html"> ΤΟ ΘΕΜΑ ΜΟΥ </a> </li>
+	<li> <a href="more.html"> ΠΕΡΙΣΣΟΤΕΡΑ </a> </li>
+	<li> <a href="quiz.html">  QUIZ</a> </li>
+	<li> <a href="sign-up.php"> ΕΓΓΡΑΦΗ</a> </li>
+	<li class="selected"> <a href="login.html"> ΕΙΣΟΔΟΣ</a> </li>
+	</ul>
+</nav>
+
+
+<main style="height:500px"> <h2> ΕΙΣΟΔΟΣ ΧΡΗΣΤΗ </h2>
+<form method="post" action="login.php">
+<br>
+
+<p> Username: <br>
+<input type="text" name="username" size="30" maxlength="30"  style="width:50%" > <br>
+</p>
+
+<p> Password: <br>
+<input type="password" name="password" size="30" maxlength="30"  style="width:50%"> <br>
+</p>
+
+<br>
+<p> <input type="submit" name="submit_data" value="είσοδος" style="width:25%">
+</p>
+</form>
+
+</main>
+
+<aside></aside>
+<section></section>
+
+<footer style="color:#ffffff"> 
+ Σχεδίαση Ιστοσελίδας: Τζαφερης Χρήστος <br>
+ Επικοινωνία:<a href="mailto:tzaf097@gmail.com" style="color:#ffffff"> Email me here</a>
+</footer>
+
+</div>
+</body>
+
+</html>
